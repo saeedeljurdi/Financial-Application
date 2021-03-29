@@ -1,0 +1,149 @@
+.income{
+    margin-top: 15vh;
+}
+.income-report-button:hover{
+    background-color: white;
+    color: #24263b;
+    border: solid;
+    border-color: #24263b;
+}
+.income-chart{
+    width: 50%;
+}
+.income h1{
+    display: inline;
+}
+.income-items{
+    background-color: #24263b;
+    color: white;
+    border-radius: 5px;
+    margin: 3%;
+    padding: 4%;
+}
+th{
+    background-color: #24263b;
+    color: white;
+}
+td{
+    padding: 0.5%;
+    margin: 0.5%;
+    text-align: center;
+}
+.income-select{
+    width: 11vw;
+}
+table{
+    border-spacing: 0;
+    border: solid;
+    border-color: #24263b;
+    border-radius: 10px;
+}
+textarea, input#amount{
+    width: 8vw;
+    height: 4vh;
+}
+td.income-max{
+    max-width: 10vw;
+}
+input#amount {
+    margin-bottom: 3px;
+}
+input#date {
+    width: 8vw;
+}
+input, textarea, select, .income-select{
+    color: #24263b;
+}
+.income-button{
+    padding: 10%;
+    width: 80%;
+}
+.income-button:hover{
+    background-color: white;
+    color: #24263b;
+    border: solid;
+    border-color: #24263b;
+}
+.income-flex{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+td .income-flex{
+    white-space: nowrap;
+}
+.income-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.1%;
+}
+.income-table-even{
+    background-color: rgba(36, 38, 59, 0.2);
+    color: #24263b;
+}
+.income-table-odd{
+    background-color: white;
+    color: #24263b;
+}
+.income-width{
+    width: max-content;
+}
+.income-edit-button{
+    padding: 1.5%;
+    width: 10%;
+    cursor: pointer;
+    margin: 3%;
+}
+.income-close-button{
+    margin: 0;
+    background-color: white;
+    color: #24263b;
+    border-radius: 5px;
+    padding: auto;
+    cursor: pointer;
+    float: right;
+}
+.income-edit-table{
+    margin-top: 15%;
+    background-color: #24263b;
+}
+.income-delete{
+    margin-top: 15%;
+}
+.income-del{
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #24263b;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #24263b;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 1%;
+    }
+.yes-del:hover{
+    background-color: white;
+    color: #24263b;
+    border: 3px solid #24263b;
+}
+.income-report-button{
+    background-color: #24263b;
+    color: white;
+    border-radius: 5px;
+    float: right;
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+    text-decoration: none;
+    border: solid;
+    border-color: #24263b;
+
+}
+.income-report-button:hover{
+    background-color: white;
+    color: #24263b;
+}

@@ -1,0 +1,80 @@
+.reports{
+    margin-top: 14vh;
+}
+/* .income-visuals{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+.income-visuals{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2%;
+}
+.reports h1{
+    display: inline;
+}
+.reports-select{
+    padding: 0.5%;
+    border: solid;
+    border-color: #24263b;
+    border-radius: 10px;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(36, 38, 59, 0.2);
+    width: 10%;
+    float: right;
+}
+.reports-select :nth-child(n){
+    font-size: 1.1vw;
+}
+.reports-progress{
+    width: 60%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.reports-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+}
+.reports-goal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.reports-goal p{
+    color: #24263b;
+    margin: 0;
+}
+.reports-goal button{
+    padding: 1%;
+    margin: 1%;
+    width: 30%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+}
+.reports-goal button:hover{
+    border: 2px solid #1f2235;
+    color: #1f2235;
+    background-color: white;
+    width: 30%;
+}
+.reports-goal input{
+    height: 30px;
+    background-color: #1f2235;
+    color: white;
+    font-weight: bold;
+}
+.reports-goal div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

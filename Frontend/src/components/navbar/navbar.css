@@ -1,0 +1,201 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 14vh;
+    background-color: #1f2235;
+    align-items: center;
+    color: #1f2235;
+  }
+  .nav-items {
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+  }
+  .nav-items a:hover {
+    transition: all 0.3s ease;
+    color: #1f2235;
+    background-color: white;
+  }
+
+  .nav-items a  {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .logout{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    height: 6vh;
+    width: 100%;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .logout:hover{
+    transition: all 0.3s ease;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: red;
+  }
+
+  
+/* sjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj*/
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 18px;
+  top: 46px;
+}
+.bm-menu-wrap{
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: 0.2s ease-in-out !important;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background:white;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: black ;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+ 
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #1f2235;
+  font-size: 2.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: red;
+  padding: 1em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: #d1d1d1;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.2s;
+ 
+}
+
+.bm-item:hover {
+  color: #ec0808;
+}
+.bm-menu-wrap {
+  position: fixed;
+  right:0;
+  top:0;
+  height: 100%;
+  min-width:90%;
+  z-index: 10;
+ 
+}
+
+    nav{
+  display:flex;
+  flex-direction: column;
+
+}
+
+
+#react-burger-menu-btn , .bm-burger-button , .bm-overlay{
+display:none;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  transition: all 0.3s ease;
+  color: #1f2235;
+  background-color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-width:600px){
+  .nav-items{
+    display: none;
+  }
+  
+#react-burger-menu-btn , .bm-burger-button , .bm-overlay{
+  display:flex;
+  }
+  .logout{
+    width: auto;
+  }
+  
+}
+
+
+
